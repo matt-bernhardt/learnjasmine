@@ -1,13 +1,22 @@
 {
-  "name": "learnjasmine",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-jasmine-runner": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/matt-bernhardt/learnjasmine.git"
-  }
+    "name": "learnjasmine",
+    "description": "Learning Jasmine",
+    "version": "0.1.0",
+    "homepage": "https://github.com/matt-bernhardt/learnjasmine",
+    "author": {
+        "name": "Matt Bernhardt",
+        "email": "matt.j.bernhardt@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/matt-bernhardt/learnjasmine/issues",
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-jasmine": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/matt-bernhardt/learnjasmine.git"
+    }
 }

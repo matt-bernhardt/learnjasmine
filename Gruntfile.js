@@ -1,12 +1,12 @@
 module.exports = function(grunt) {
+    'use strict';
+
     grunt.initConfig({
         jasmine: {
-            // Your project's source files
             src: 'src/**/*.js',
-            // Your Jasmine spec files
-            specs: 'specs/**/*spec.js',
-            // Your spec helper files
-            helpers: 'specs/helpers/*.js'
+            options: {
+                specs: 'specs/**/*.js'
+            }
         }
     });
 
@@ -14,5 +14,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jasmine');
 
     // Default task.
-    grunt.registerTask('default', 'jasmine');
+    grunt.registerTask('default', ['jasmine']);
 };
