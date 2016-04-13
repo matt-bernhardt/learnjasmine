@@ -21,4 +21,4 @@ function Person(params) {
 		return this.firstname + " " + this.lastname;
 	};
 
-};
+}
