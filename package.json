@@ -8,7 +8,7 @@
         "email": "matt.j.bernhardt@gmail.com"
     },
     "bugs": {
-        "url": "https://github.com/matt-bernhardt/learnjasmine/issues",
+        "url": "https://github.com/matt-bernhardt/learnjasmine/issues"
     },
     "devDependencies": {
         "grunt": "^0.4.5",
